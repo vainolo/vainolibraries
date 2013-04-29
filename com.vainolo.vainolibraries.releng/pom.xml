@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vainolo.vainolibraries</groupId>
+  <artifactId>com.vainolo.vainolibraries.releng</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+    <repositories>
+        <repository>
+            <id>indigo</id>
+            <layout>p2</layout>
+            <url>http://download.eclipse.org/releases/indigo</url>
+        </repository>
+    </repositories>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.eclipse.tycho</groupId>
+                <artifactId>tycho-maven-plugin</artifactId>
+                <version>0.16.0</version>
+                <extensions>true</extensions>
+            </plugin>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.0</version>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>  
+    <packaging>pom</packaging>
+    <modules>
+    	<module>../com.vainolo.vainolibraries.java</module>
+    	<module>../com.vainolo.vainolibraries.java.eclipse</module>
+    </modules>
+</project>
