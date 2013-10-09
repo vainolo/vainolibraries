@@ -3,7 +3,9 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Eclipse
 Bundle-SymbolicName: com.vainolo.vainolibraries.java.eclipse
 Bundle-Version: 0.0.1.qualifier
-Bundle-ClassPath: lib/guava-14.0.jar
+Bundle-ClassPath: lib/guava-14.0.jar,
+ lib/guava-14.0-javadoc.jar,
+ lib/guava-14.0-sources.jar
 Export-Package: com.google.common.annotations,
  com.google.common.base,
  com.google.common.base.internal,
