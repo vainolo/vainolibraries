@@ -5,7 +5,12 @@ Bundle-SymbolicName: com.vainolo.vainolibraries.java.eclipse
 Bundle-Version: 0.0.1.qualifier
 Bundle-ClassPath: lib/guava-14.0.jar,
  lib/guava-14.0-javadoc.jar,
- lib/guava-14.0-sources.jar
+ lib/guava-14.0-sources.jar,
+ lib/mockito-all-1.9.5.jar,
+ lib/mockito-all-1.9.5-sources.jar,
+ lib/easymock-3.1-sources.jar,
+ lib/easymock-3.1.jar,
+ lib/guice-4.0-beta.jar
 Export-Package: com.google.common.annotations,
  com.google.common.base,
  com.google.common.base.internal,
@@ -18,5 +23,7 @@ Export-Package: com.google.common.annotations,
  com.google.common.net,
  com.google.common.primitives,
  com.google.common.reflect,
- com.google.common.util.concurrent
+ com.google.common.util.concurrent,
+ org.easymock,
+ org.mockito
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
