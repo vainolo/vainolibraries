@@ -34,5 +34,6 @@
     <modules>
     	<module>../com.vainolo.vainolibraries.java</module>
     	<module>../com.vainolo.vainolibraries.java.eclipse</module>
+    	<module>../com.vainolo.vainolibraries.feature</module>
     </modules>
 </project>
