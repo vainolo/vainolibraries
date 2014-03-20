@@ -6,9 +6,9 @@
   
     <repositories>
         <repository>
-            <id>indigo</id>
+            <id>keplet</id>
             <layout>p2</layout>
-            <url>http://download.eclipse.org/releases/indigo</url>
+            <url>http://download.eclipse.org/releases/kepler</url>
         </repository>
     </repositories>
 
@@ -17,7 +17,7 @@
             <plugin>
                 <groupId>org.eclipse.tycho</groupId>
                 <artifactId>tycho-maven-plugin</artifactId>
-                <version>0.16.0</version>
+                <version>0.18.1</version>
                 <extensions>true</extensions>
             </plugin>
             <plugin>
