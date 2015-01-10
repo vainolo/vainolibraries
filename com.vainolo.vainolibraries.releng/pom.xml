@@ -2,22 +2,27 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.vainolo.vainolibraries</groupId>
   <artifactId>com.vainolo.vainolibraries.releng</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.1.0</version>
   
     <repositories>
         <repository>
-            <id>keplet</id>
+            <id>luna</id>
             <layout>p2</layout>
-            <url>http://download.eclipse.org/releases/kepler</url>
+            <url>http://download.eclipse.org/releases/luna</url>
         </repository>
     </repositories>
 
     <build>
         <plugins>
+		  <plugin>
+			<groupId>org.eclipse.tycho</groupId>
+			<artifactId>tycho-versions-plugin</artifactId>
+			<version>0.22.0</version>
+		  </plugin>
             <plugin>
                 <groupId>org.eclipse.tycho</groupId>
                 <artifactId>tycho-maven-plugin</artifactId>
-                <version>0.18.1</version>
+                <version>0.22.0</version>
                 <extensions>true</extensions>
             </plugin>
             <plugin>
@@ -35,5 +40,6 @@
     	<module>../com.vainolo.vainolibraries.java</module>
     	<module>../com.vainolo.vainolibraries.java.eclipse</module>
     	<module>../com.vainolo.vainolibraries.feature</module>
+		<module>../com.vainolo.vainolibraries.releng.p2</module>
     </modules>
 </project>
