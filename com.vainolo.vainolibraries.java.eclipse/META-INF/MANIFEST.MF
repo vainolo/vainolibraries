@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Eclipse
 Bundle-SymbolicName: com.vainolo.vainolibraries.java.eclipse
-Bundle-Version: 0.1.0
+Bundle-Version: 0.1.0.qualifier
 Bundle-ClassPath: lib/guava-14.0.jar,
  lib/guava-14.0-javadoc.jar,
  lib/guava-14.0-sources.jar,
